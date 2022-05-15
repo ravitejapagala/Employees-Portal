@@ -33,3 +33,6 @@ We need to register first by providing the Username,Email and Password
 Login with the Credentials
 Upload the Valid JSON file and submit where we have sample JSON file in the project folder.
 Click on view all records to see the Employees Information.
+
+# Screenshots
+screenshots provided with the Each template by providing sample information.
