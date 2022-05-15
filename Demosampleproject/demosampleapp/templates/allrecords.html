@@ -1,0 +1,32 @@
+<!-- <h3>To show all records<a href="/allrecords">click here</a></h3> -->
+<h3 style="padding: 2%;">To upload the JSON file <a href="/fileupload">click here</a> <a class="nav-link" href="/logout" style="margin-left: 70%;">Logout</a></h3>
+
+<table style="margin-left: 30%;">
+    <tr>
+        <th>Employee Name</th>
+        <th>Employee Department</th>
+        <th>Employee PhoneNumber</th>
+        <th>Employee Office Branch</th>
+
+    </tr>
+    {% for employeerecord in employees %}
+
+    <!-- <tr>
+        <td>smaplecolumns</td>
+        <td>samplecolumns</td>
+    </tr> -->
+    <!-- <th>sampleheader</th>
+    <td>samplecolunmns</td>
+    <td>sample1column</td>
+    <tr>samplerow</tr> -->
+    <tr>
+        <th>{{ employeerecord.employee_name }}</th>
+        <th>{{ employeerecord.employee_department}}</th>
+        <th>{{ employeerecord.employee_phonenumber}}</th>
+        <th>{{ employeerecord.employee_office_branch}}</th>
+    </tr>
+    <!-- <br> -->
+{% endfor %}
+</table>
+
+

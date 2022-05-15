@@ -1,0 +1,15 @@
+{% load static %}
+
+{% block content %}
+<h3 style="padding: 2%;">To show all records <a href="/allrecords">click here</a> <a class="nav-link" href="/logout" style="margin-left: 70%;">Logout</a></h3>
+<div style="margin-left: 40%;">  
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <h2>Should only be upload JSON file</h2>
+        <input type="file" name="myfile">
+        <button type="submit">Upload</button>
+    </form>
+</div>
+
+{% endblock %}
+
