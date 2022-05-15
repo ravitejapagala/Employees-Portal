@@ -10,7 +10,7 @@ Here we can upload the JSON file where it is havning the information related to 
 Here we will have the register,login and logout functionalities
 
 # Step1:
-with latest python version
+Install with latest python version
 
 # Step2:
 Install django requirements provided in requirements.txt
