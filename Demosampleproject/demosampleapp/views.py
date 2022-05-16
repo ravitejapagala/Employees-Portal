@@ -4,7 +4,6 @@ from django.contrib.auth import login, authenticate, logout#add this
 from django.contrib.auth.forms import AuthenticationForm #add this
 import json
 from . models import Employee
-from importlib_metadata import method_cache
 # from django.contrib.auth import login, authenticate, logout #add this
 # Create your views here.
 
