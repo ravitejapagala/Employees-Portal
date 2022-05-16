@@ -3,8 +3,6 @@ To upload the Employees data to save it in DB using JSON file.
 # Overview
 This project will be having the Organization Employees data with Employee name, in which department he is working on, his phonenumber and Office branch
 
-/home/raviteja/Pictures/Screenshot from 2022-05-16 18-20-34.png
-
 # Project Introduction:
 This will help you to maintain the Employees data in Organization.
 We can have the Employee name with department and his phonenumber and which Office branch
